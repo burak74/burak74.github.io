@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
-
+@media (min-width:640px) { body {font-size:1rem;} }
 *{
     margin:0;
     padding:0;
@@ -31,7 +31,10 @@ a{
     font-size: 400%;
 }
 
-
+.content > h2:hover{
+    font-size: 410%;
+    color: #2b6e9e;
+}
 
 .links{
     display: flex;
