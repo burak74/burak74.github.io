@@ -16,33 +16,22 @@ a{
     text-decoration: none;
 }
 .main{
-    margin-top: 25%;
-    display: grid;
     align-items: center;
-    justify-content:center;
+    justify-content: center;
 }
 .content{
-    display:grid;
-    justify-content:center;
-    align-items: center;
+    margin-top: 10%;
+    text-align: center;
 }
 
-.content > h2{
-    font-size: 400%;
+.content > h1{
+    font-size: 200%;
 }
-
-.content > h2:hover{
-    font-size: 410%;
-    color: #2b6e9e;
-}
-
 .links{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    text-align: center;
 }
 footer{
-    margin-top: 18%;
+    margin-top: 16%;
     padding-top:1%;
     border-top: solid 1px #2b6e9e;
     text-align: center;
