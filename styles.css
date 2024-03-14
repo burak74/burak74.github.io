@@ -9,5 +9,41 @@
 
 body{
     background: #081b29;
-    color: #ededed;
+    color: #a9cef7;
+}
+
+a{
+    text-decoration: none;
+}
+.main{
+    margin-top: 25%;
+    display: grid;
+    align-items: center;
+    justify-content:center;
+}
+.content{
+    display:grid;
+    justify-content:center;
+    align-items: center;
+}
+
+.content > h2{
+    font-size: 400%;
+}
+
+
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer{
+    margin-top: 18%;
+    padding-top:1%;
+    border-top: solid 1px #2b6e9e;
+    text-align: center;
+}
+footer > a{
+    text-align: 25%;
 }
