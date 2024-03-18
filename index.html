@@ -1,43 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Burak.</title>
     <link rel="stylesheet" href="styles.css">
-    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
-    
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css'>
 </head>
+
 <body>
     <div class="main">
-        <div class="content">
-            <header>
-                <img src="brk_logo.png" style="height: 20%; width: 20%;">
-            </header>
-            <h1>
-                Burak Alkan
-            </h1>
-            <br>
-            <h3>
-                Computer Engineer
-            </h3>
-            <h3>
-                Software Developer
-            </h3>
-            
-        </div>
+        <header>
+            <img src="brk_logo.png" alt="Burak Logo">
+            <h1>Burak Alkan</h1>
+            <p>Computer Engineer | Software Developer</p>
+        </header>
         <div class="links">
-            <a href="https://www.linkedin.com/in/burakalkan74/"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAAlxJREFUaEPtmD9IlkEcxz9CkyhBg1AEkhhkhC3mEDTVmINu0lQOChZCmJmt/aOGIPwDkU5BDZUuTWkuUWviUENii1hkFDo0aT0/eF54u5673/s+PHT34t3yDnf33vdz3/v97vdcHTXe6mpcPxHAt4O7woFDwAlgB3gHrPne9fL1NQfGgUFD8D1gJBQIF8AUMGARehe4GgKEDeAI8EERuD8B/OIbwgZwHphRxHUDc6ECXACmFXE9wGyoAMeAZUXcwRAykiuIxQFxIqvdBy773n1ZX0ujj4A+Q+gDYCgE8ZUAyJi29CL7DbwFVkIRXylASHr/0aIdoaDFaw50AA0Wgh/AktEnNVOzZfx3I6t1AZeAFkAuRKmz1oHPwBPgGbBVye65HHif5Pnjlj9ZAM4YfTeBMcv4l8BZQFLvizSmXPo2gWvApAZRJMCtdNGsNQVA4BaBfZqosn6pBsws+Nf0IgFuANct4uaBA8DRKsSXhvYncx/a5uUFeA2cNv70NjCaQ6A2ZRVoTeOkqizkioH/CSCiT6YfU4UBVBvE5sKSYT4CUrY3ahaksXUna1zeI5QXQFyVUl1+S60zLcslndraU6DXN8DXJL9LlbuRIURK8+cOgDfAKd8AF4EJh8ifwF5L/yfgsG+AduUb41XG5VjS/C251Jp8A9QnDwG/HA48Bs45+jPjNW8Q50mjWuHoegURrkIB8mQhDUCeaq6E7MAeYNshUB7MhiNA2Q4UXUpEB4pMo3myUHQgOlC2A/EIZRyHeA+Ym1Lz90AFX3r+h2gFln+FioII4Nui6IBvB/4AZcmfMdHz4o0AAAAASUVORK5CYII="/></a>
-            <a href="mailto:burakalkan74@gmail.com"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAAArdJREFUaEPtmE+ITlEYxn+z0PiThQWhqFlYjFgoKSvFwkKhTKnJ1BRJKVKsydaCJAsRC1H+LEjZqKlZsJTUWChKzGCl5O+G++icuvM59zvnfPfMvd/Ueeuu7vue93ne973nPucMMM9tYJ7jJxNou4O5A7kDNSuQR6hmAWuH+zqwElgOvKydqbcFNgKfgM9V4VUENgPXgQ0m8A1wCJjoDUd01HbgKjBkIl8AY65CugjsAB4Cix1pTwNno+HEBZwBlKfTvgI7i+dZ+YWLwCNgV5ecj4FR4EscLq/3MuC2AVnlfAfY7yOgmVvhSfcO2As898IKc9gC3AXWetzfA2t8BP6E5eQ3cAq4GOhf5XYcOAcsCFxn1tS4RiiUgM2n7+UAoBmNsaXATWB3TBDMFqApCCj/22Kc9kRst5uA+6VdJoZD8g7Y5D8BjcMVD5ojwAVgMAZ1yXfOCNgct4DDxffxrQPgEuAGMNIjcBs25wSU6LUZqVcm6zDwAFhXE7zCGyGgRD/M33shcAlYlAB8owQS4f1vmcY6kAlUVCBJB6aA9YlLHLpmEgLSIyfNvp+Cx3lAjzSWz5IQWAV8NDJAckCyoBeT/JAMkRxZDXwIWCQJASWbMcl06NAer9NTjEnJ7jMyRHGtEVByyQLJA8mEELsMnIB/itZaqwQsCMkEyQXJBpdJXowXR9V7jpd9QUC4JBc0UpIPZdPFgEZGMsNlfUNA4CQbdCjX0VN2DTgK/OoyX40SsLuQb94PGtDaqXymKxy7MXTzTb4L+YCFvm+0A+VtNBSgzy8TsBUKOdT3dQd0ENEhpJuFfsS+sSm/15rTnoDvnf8Y163EU2BrCwRCvoHJ4n52Wxmbi4C0jS6rdMHquh9VfNMd0B/8CXCsU7H6rtdjRqAV30yglbKXkuYO5A7UrEAeoZoFrB3+F9F2gDEN/NjTAAAAAElFTkSuQmCC"/>
-            <a href="https://github.com/burak74"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAAAXNSR0IArs4c6QAABJJJREFUaEPtmXmoVVUUxn8igRpl4JBZITmhFRg5IJWC5ogiiiVhKWFFaORQalFCpVQqDjgg4lBEWlkQpiUNSpSE5ICCkEWmjWaoWQ7VH0XuD859HM/b07nnvPd48BY8Hvfuvdde39prf2uvdZvRyKVZI7efJgANfYJlnkAHYCgwCBgMdMqA+xX4NPn7EPi5DPBFAVwHPAmMAnrkNOgosANYBvyQc23N9CIA5gHPAC2r3Ty1bgHwEvBPXl3VAFCYrLeESN69s/MVUg8DH+VRlBfARmBKng2qmPsK8FDsulgAVyfxemes4oLzvgBGmvt1PqQnBsAVwE5gYEhZyeOfAXcD//n0xgBYCzxasnGx6lYCM4oAmAhstihYZ2jzLeA2YBrQNdaizLyfgDWGhvclOeQpi57xwLsu/b4TuAY4Duh/Vu4yGypOK6ITeh5QMqvIb8AJ4F/DWtcDHVNjvwPzgRWp77oD31j2kp7OwF82ED4AS4EnHMht664Ebk6M/sWxTolPQI6Z0DhrmXMRaGX5Xs55IQ+AtoYuf/QkqZi7U01UydvtLQv/AG4ELmTHXIYI8XMeC1qb0zlXjYWBNf97xh8HVscC0OW6waOsD3CgZAA3JaHlUnsQuD0GgIwTK7gkSG0FgD0NvOxZLzIQMdSILYTmmIu02KFEjKKTUazWhegC69mtzG+TSYayN4UAbAEmOBS8B4ytC8tTOl8FHnTssTzLjLYTOAT0ciiwXqSSAU0GXnPo3A6MCZ2AYkx8bRNl5jdLNjirbpjnSf0VcEsIwEngWoeR8s7rDQhA1C0K915ilXpdHEaqfFQJWJfygMdJek4o43sB7AH6OyxcAoil6lL0oFvo2OB7cz+UL7wA3k+KdJuOLz3gygKlQl/FjE32A31DAJSuH/NYo9fpn2VZa9HztzmBFg79ovj7QgCUAzTRJbW4uEQwoTeYHKv6wRtCeomeChglqvukRMOlSjXG7oDOnuYEvg4B0PjebKxlFIsNxgEflwRCnbytwFUefWLHbtlx13Na/Rn1fiqi94k6BKqa0qJwUkPqdJVAdNpqjs2KWC/2EwteJi4A4loZXfHIG8D9xuN3JBQ3IKVF3TR1LQ4D35kn7zZPCOqRdk/iyVuBIZ4Lm7VVYM/EAtC8FxPvVNaI3u5NPijELkvpyfd6hvcLeHNX0vyNcHrNlFXAdNsCX2koKpNX0x0HtVimJslExrbJKBWDvROwTE54O4f1Kq5Ua9cqJ6UjVNsqVD7PbCYPy3g9N1R2jgDE3UpyorkQg6nmzVNPDPeRRQiAbJdR6Vr0A2B0Dg/apvpq3/T82eYeqjvilBgAWrzI9GXmprSonzOzAIgYAHKa6g+vxAKwXWoxjio0FdtqjavfIy63NqAyVoQAqKS1delqgckDQIvVWleL3SXtInOCD8Ajpu7eEPJ8ZTwvAK3rnRTWtp+UigA4YvKIivZc7ZpqAFTAq/2hNkhaqgGgdqLu1LOxXk/PKwJAepQHdOTqUDdPmrgxduhB9m3S+da9yf3bWJEQijGw3uYUPYF6M9S1UROAhj6CRn8ClwA7zL0xrIylkgAAAABJRU5ErkJggg=="/></a>
+            <a href="https://www.linkedin.com/in/burakalkan74/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:burakalkan74@gmail.com" target="_blank"><i class="far fa-envelope"></i></a>
+            <a href="https://github.com/burak74" target="_blank"><i class="fab fa-github"></i></a>
         </div>
-
     </div>
-    <script src="script.js"></script>
+
+    <footer>
+        <span>&copy; 2024 Burak.</span>
+    </footer>
 </body>
-<footer>
-    <a>
-        2024 ©
-    </a>
-</footer>
+
 </html>
